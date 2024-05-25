@@ -1,0 +1,61 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: url(low-poly-grid-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.container{
+    width: 300px;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 20px;
+    background-color: #fff;
+}
+h1{
+    text-align: center;
+}
+.form{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+input{
+    width: 95%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.checkbox{
+    padding: 10px 0px;
+}
+p{
+    margin: 0;
+}
+#box{
+    height: 13px;
+    width: 13px;
+}
+/* #box:checked{
+    background-color: rgb(30, 145, 247); 
+} */
+.form button{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 21px;
+}
+.form button a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "poppins", sans-serif;
+}
+.form button:hover{
+    background-color: #fff;
+}
+.form button a:hover{
+    color: #000000;
+    font-size: 15px;
+}
